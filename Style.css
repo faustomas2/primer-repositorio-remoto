@@ -1,0 +1,173 @@
+body{
+    background-color: #8c31a8;
+  }
+  h1{
+    background-color: #87ceeb;
+    color: #eba487;
+    font-family: Georgia;
+    font-size: 42px;
+    text-align: center;
+    margin: -8px;
+    border: 2px solid black;
+  }
+  h2{
+    background-color: #2f4f4f;
+    color: #ecf3f3;
+    font-family: Calibri;
+    font-size: 18px;
+    text-align: center;
+    margin: 5px -7px 8px -7px;
+    border: 2px solid black
+  }
+  #arreglo1{
+    background-color: #2f4f4f;
+    color: #ecf3f3;
+    font-family: Calibri;
+    font-size: 18px;
+    text-align: center;
+    margin: -10px -7px 8px -7px;
+    border: 2px solid black
+  }
+  p{
+    color: ivory;
+    font-family: Calibri;
+    margin: 5px;
+  }
+
+  .container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    border: 2px dashed black;
+  }
+
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px;
+  }
+  
+  .column {
+    flex: 1;
+    padding: 10px;
+  }
+
+  @media (max-width: 600px) {
+    .column {
+      flex: 100%;
+    }
+  }
+
+  .container-nav {
+    display: flex;
+    padding: 10px;
+    height: 50px;
+    background-color: #272932;
+  }
+  
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+  
+  
+  .brand {
+    display: flex;
+    align-items: center;
+  }
+  
+  
+  li>a {
+    padding: 8px 24px;
+  }
+  
+  
+  li {
+    list-style-type: none;
+  }
+  
+  
+  a {
+    color: #9F2042;
+    text-decoration:none;
+  }
+  
+  
+  .nav-links {
+    display: flex;
+    align-items: center;
+  }
+  
+  
+  .button-menu-toggle {
+    display: none;
+  }
+
+  @media (max-width: 768px) {
+    .column {
+      flex: 100%;
+    }
+  
+  
+    .nav-links {
+      display: none;
+    }
+  
+  
+    .button-menu-toggle {
+      display: block;
+      background-color: white;
+      border:none;
+      border-radius: 50px;
+      padding: 0 24px;
+      font-family: monospace;
+      font-weight: bold;
+      font-size: 20px;
+    }
+   
+    .nav-links.nav-links-responsive {
+      position: absolute;
+      display: flex;
+      background-color: rgba(20,20,20,0.95);
+      width: 100%;
+      height: 100%;
+      top: 70px;
+      left: 0;
+      flex-direction: column;
+      padding-top: 200px;
+      align-items: center;
+      gap:70px;
+      font-size: 40px;
+  
+  
+    }
+  }
+
+  .footer1 {
+    height: 200px;
+    display: flex;
+    justify-content: center;
+  }
+
+  #imagen1 #imagen2 #imagen3 {
+    display: flex;
+    align-content: center;
+    flex-direction: row;
+  }
+
+  #imagen1 {
+    height: 5cm;
+    width: 5cm;
+  }
+
+  #imagen2 {
+    height: 5cm;
+    width: 5cm;
+  }
+
+  #imagen3 {
+    height: 5cm;
+    width: 5cm;
+  }
